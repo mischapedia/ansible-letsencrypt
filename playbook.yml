@@ -1,5 +1,5 @@
 ---
-- hosts: example.com
+- hosts: letsencrypt
   become: true
   gather_facts: no
 
