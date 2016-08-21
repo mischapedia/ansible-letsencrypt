@@ -1,0 +1,1 @@
+Ansible playbook to setup HTTPS using Let's encrypt on nginx.
