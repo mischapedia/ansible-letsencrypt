@@ -45,4 +45,4 @@
   cron:
     name: letsencrypt_renewal
     special_time: weekly
-    job: letsencrypt certonly -n --webroot -w /var/www/letsencrypt -m {{ letsencrypt_email }} --agree-tos -d {{ letsencrypt_domain_name }} && service nginx restart
+    job: letsencrypt certonly -n --webroot -w /var/www/letsencrypt -m {{ letsencrypt_email }} --agree-tos -d {{ letsencrypt_domain_name }} && /usr/sbin/service nginx restart
